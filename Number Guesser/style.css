@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* nav */
+input {
+  border: none;
+  background-color: #282424;
+}
+
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  background-color: #000000;
+  color: white;
+}
+
+/* guess area */
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 669px;
+  width: 1535px;
+  background-color: #282424;
+  color: white;
+}
+
+.main-guess-area {
+  width: 498px;
+  height: 200px;
+  background-color: #000000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.main-guess-area p {
+  font-size: 22px;
+  margin: 10px;
+}
+
+.main-guess-area p {
+  background-color: #000000;
+}
+
+.main-range {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.main-range input {
+  height: 30px;
+  width: 60px;
+  border-radius: 20%;
+  text-align: center;
+  color: white;
+}
+
+.main-range p {
+  align-self: center;
+}
+
+.main-guess-submit {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.main-guess-submit input {
+  border-radius: 20%;
+  text-align: center;
+  height: 30px;
+  color: white;
+}
+
+button {
+  border-radius: 20%;
+  display: inline-block;
+  text-align: center;
+  width: 60px;
+  height: 30px;
+  background-color: #000000;
+  color: white;
+  border: 1.25px solid #f1f1f1;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-2.5px);
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+.result {
+  height: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.result p {
+  margin: 10px;
+}

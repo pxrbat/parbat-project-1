@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Number Guesser</title>
+  </head>
+  <body>
+    <div class="nav">
+      <p class="main-title">Guess The Number</p>
+    </div>
+    <div class="main">
+      <div class="main-guess-area">
+        <p><span>Enter the range</span></p>
+        <div class="main-range">
+          <input type="text" placeholder="Min" id="min-value" />
+          <input type="text" placeholder="Max" id="max-value" />
+          <button onclick="initGame()">Go!</button>
+        </div>
+        <p id="guess-txt"><span>Please enter your guess below:</span></p>
+        <div class="main-guess-submit">
+          <input type="number" placeholder="Enter here." id="guess" />
+          <button onclick="sub()">Guess</button>
+          <br />
+        </div>
+        <div id="result">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
